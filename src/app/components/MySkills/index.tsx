@@ -70,7 +70,7 @@ const MySkills = ({}: Props) => {
               <div className='absolute right-0 top-0 z-[-1] h-32 w-1/2 bg-blue md:w-3/4'></div>
             </div>
             <p className='mt-5'>
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+              Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an
               unknown printer took a galley of type and scrambled it to make a type specimen book
             </p>
           </motion.div>

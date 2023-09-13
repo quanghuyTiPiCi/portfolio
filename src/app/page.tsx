@@ -6,6 +6,7 @@ import LineGradient from "@/app/components/Shared/LineGradient";
 import Projects from "@/app/components/Projects";
 import Testimonials from "@/app/components/Testimonials";
 import Contact from "@/app/components/Contact";
+import { Facebook } from "./facebook";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Testimonials />
       <LineGradient />
       <Contact />
+      <Facebook />
     </>
   );
 }

@@ -11,8 +11,8 @@ const ActionButton = ({ children, setSelectedPage }: Props) => {
   return (
     <Link
       className='cursor-pointer rounded-md bg-secondary-500 px-10 py-2 transition-colors hover:bg-primary-500'
-      onClick={() => setSelectedPage(SelectedPage.ContactUs)}
-      href={`#${SelectedPage.ContactUs}`}
+      onClick={() => setSelectedPage(SelectedPage.CONTACT)}
+      href={`#${SelectedPage.CONTACT}`}
       scroll={true}
     >
       {children}
